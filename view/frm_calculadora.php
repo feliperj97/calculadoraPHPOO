@@ -11,9 +11,9 @@
 <body>
     <form name = "calc" action = "../controller/ct_calculadora.php" method = "post">
         <label for = "n1">N1:</label>
-        <input type = "number" id = "n1" name = "n1">
+        <input type = "text" id = "n1" name = "n1" required>
         <label for = "n2">N2:</label>
-        <input type = "number" id = "n2" name = "n2">
+        <input type = "text" id = "n2" name = "n2" required>
         <p>Escolha a operação: </p><br>
         <input type = "submit" name = "somar" value = "somar">
         <input type = "submit" name = "subtrair" value = "subtrair">
