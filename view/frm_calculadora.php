@@ -9,17 +9,17 @@
     <script src="main.js"></script>
 </head>
 <body>
-    <form name = "calc" action = "ct_calculadora.php" method = "post">
+    <form name = "calc" action = "../controller/ct_calculadora.php" method = "post">
         <label for = "n1">N1:</label>
         <input type = "number" id = "n1" name = "n1">
         <label for = "n2">N2:</label>
         <input type = "number" id = "n2" name = "n2">
         <p>Escolha a operação: </p><br>
-        <input type = "radio" name = "soma" value = "soma">Soma<br>
-        <input type = "radio" name = "subtracao" value = "substracao">Subtração<br>
-        <input type = "radio" name = "multiplicacao" value = "multiplicacao">Multiplicação<br>
-        <input type = "radio" name = "divisao" value = "divisao">Divisão<br>
-        <input type = "submit" value = "calcular">
+        <input type = "submit" name = "somar" value = "somar">
+        <input type = "submit" name = "subtrair" value = "subtrair">
+        <input type = "submit" name = "multiplicar" value = "multiplicar">
+        <input type = "submit" name = "dividir" value = "dividir">
+
     </form>
 </body>
 </html>
